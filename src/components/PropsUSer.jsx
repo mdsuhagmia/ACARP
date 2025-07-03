@@ -20,7 +20,7 @@ const PropsUSer = ({title, image}) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
                 eum alias blanditiis.
               </p>
-            )} {show ? <p className='pe-3'>Read more</p> : Read less } <button style={{border: 'none', marginBottom: '20px', backgroundColor: 'white', color: 'black'}} onClick={handleShow}>Read more</button> </div>
+            )} {show ? 'Read more' : 'Read less' } <button style={{border: 'none', marginBottom: '20px', backgroundColor: 'white', color: 'black'}} onClick={handleShow}>Read more</button> </div>
         </div>
       </Col>
     </>
