@@ -15,7 +15,7 @@ const PropsUSer = ({title, image}) => {
             <div><h2 style={{ fontSize: '25px', paddingTop: '5px' }}>{title}</h2></div>
           </div>
           <p className='ps-3 pe-3 ' style={{ fontSize: '18px', fontWeight: 'normal', color: 'rgba(0, 0, 0, 0.49)', paddingTop: '10px', paddingBottom: '0' }}>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
-          <div className='ps-3 pt-1'><Button onClick={handleShow} className='ps-4 pe-4' variant="primary">Read more </Button> {show == true ? <p style={{paddingTop: '10px'}}>Lorem ipsum dolor sit consectetur.</p> : "" }</div>
+          <div className='ps-3 pt-1'> {show == true ? <p style={{paddingTop: '10px'}}>Lorem ipsum dolor sit consectetur.</p> : "" } <Button onClick={handleShow} className='ps-4 pe-4' variant="primary">Read more </Button></div>
         </div>
       </Col>
     </>
