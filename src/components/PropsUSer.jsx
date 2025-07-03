@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Col } from 'react-bootstrap'
 
 const PropsUSer = ({title, image}) => {
   let [show, setShow] = useState(false)
